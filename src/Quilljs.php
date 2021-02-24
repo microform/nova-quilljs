@@ -2,12 +2,11 @@
 
 namespace Ek0519\Quilljs;
 
-use Laravel\Nova\Fields\Trix;
+use Froala\NovaFroalaField\Froala;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Trix\PendingAttachment;
 
-
-class Quilljs extends Trix
+class Quilljs extends Froala
 {
     /**
      * The field's component.
